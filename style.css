@@ -316,7 +316,6 @@ footer p {
 .contato {
   display: grid;
   justify-content: center;
-  background-color: #EFEFEF;
   margin-top: 100px;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -328,20 +327,22 @@ footer p {
   width: 100%;
 }
 
-
-.botoes-contato {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
+.redes {
+  display: grid;
+  justify-content: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 10px;
 }
 
-.bt-contato {
+.itens-um a{
+  padding: 3px;
+}
+
+.itens-tres p {
   color: white;
-  font-size: 20px;
-  background-color: #252630;
-  padding: 1em;
-  border-radius: 40px;
 }
+
 
 }
