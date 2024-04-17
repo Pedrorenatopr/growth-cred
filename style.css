@@ -351,8 +351,13 @@ footer {
   gap: 10px;
 }
 
-
-
+.copy {
+  display: grid;
+  justify-content: left;
+  padding-left: 20px;
+  padding-right: 0;
+  gap: 10px;
+}
 
 
 
