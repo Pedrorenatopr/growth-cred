@@ -182,9 +182,9 @@
   background-color: black;
   display: flex;
   justify-content: space-around;
-  padding-top: 30px;
+  padding-top: 20px;
   border-bottom: 2px solid rgb(68, 66, 65);
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .itens-um a{
@@ -205,9 +205,27 @@ footer {
   color: white;
   text-align: center;
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 footer p {
   width: 250px;
   line-height: 25px;
+}
+
+.copy {
+  font-size: 12px;
+  background-color: #252630;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid rgb(68, 66, 65);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.copy a {
+  color: white;
 }
