@@ -177,3 +177,37 @@
   padding: 1em;
   border-radius: 40px;
 }
+
+.redes {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  border-bottom: 2px solid rgb(68, 66, 65);
+  padding-bottom: 30px;
+}
+
+.itens-um a{
+  padding: 3px;
+}
+
+.itens-tres p {
+  color: white;
+}
+
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+
+footer p {
+  width: 250px;
+  line-height: 25px;
+}
