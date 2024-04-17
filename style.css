@@ -197,11 +197,11 @@
 
 
 footer {
+  width: 100%;
   background-color: black;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 300px;
   color: white;
   text-align: center;
   padding-top: 80px;
