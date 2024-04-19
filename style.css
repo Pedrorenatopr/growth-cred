@@ -107,6 +107,71 @@
     justify-content: center;
     margin: 1em;
   }
+
+  .emprestimo-pessoal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 200px 0 200px 0;
+    margin-top: 200px;
+    background-image: url(Ellipse\ 6.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  .titulo-pessoal {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .card-pessoal {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    gap: 2em;
+  }
+
+  .card-pessoal div {
+    width: 291.611px;
+    height: 308.146px;
+    padding: 18.038px;
+    border-radius: 18.038px;
+  }
+
+  .card-pessoal img {
+    padding-top: 29px;
+  }
+
+  .div-pessoal1{
+    background-color: #EFEFEF;
+  }
+
+  .div-pessoal2{
+    background-color: #97EBA9;
+  }
+
+  .div-pessoal3{
+    background-color: #EFEFEF;
+  }
+
+  .div-pessoal4{
+    background-color: #97EBA9;
+  }
+
+  .div-pessoal5{
+    background-color: #EFEFEF;
+  }
+
+  .div-pessoal6{
+    background-color: #97EBA9;
+  }
+
   
 
   .aposentados {
@@ -280,6 +345,36 @@ footer p {
   .seta {
     display: none;
   }
+
+  .emprestimo-pessoal {
+    padding: 100px 0 100px 0;
+    margin-top: 200px;
+    background-image: url(Ellipse\ 6.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  .titulo-pessoal {
+    font-size: 35px;
+  }
+
+  .div-titulo-pessoal {
+    width: 100%;
+    padding-left: 1em;
+  }
+
+
+  .card-pessoal {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  .cartao-pessoal::-webkit-scrollbar {
+    display: none;
+  }
+
 
   .box-aposentados {
     margin: 5px;
