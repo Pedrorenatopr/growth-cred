@@ -6,20 +6,23 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="anchor3">
     <nav>
-        <img src="logo.png" alt="">
-        <ul class="menu-lista ">
-            <li>
-                <a href="">Home</a>
-                <a href="">Sobre nós</a>
-                <a href="">Serviços</a>
-                <a href="">Contato</a>
-            </li> 
-        </ul>
-        <div class="bt-principal">
-            <a href="">FALE COM UM ESPECIALISTA</a>
+        <div class="logo">
+            <img src="logo.png" alt="">
         </div>
+        <div class="opcoes" id="opcoes">
+            <a href="#anchor3">Home</a>
+            <a href="#anchor">Sobre nós</a>
+            <a href="#anchor2">serviços</a>
+            <a href="#anchor2">Contato</a>
+            <a href=""><span class="bt-mobile">Fale conosco</span></a>
+        </div>
+        <a class="bt-web" href="">CONVERSAR COM UM CONSULTOR</a>
+        <button class="menu" id="menu">
+            <span class="um"></span>
+            <span class="dois"></span>
+        </button>
     </nav>
 
     <div class="box-section-principal">
@@ -146,7 +149,7 @@
 
 
 
-    <div class="box-aposentados">
+    <div id="anchor" class="box-aposentados">
         <div class="aposentados">
             <div class="texto-aposentados">
                 <p class="titulo-aposentados">Empréstimo para aposentados e pensionistas</p>
@@ -159,7 +162,7 @@
         </div>
     </div>
 
-    <div class="contato">
+    <div id="anchor2" class="contato">
         <div class="texto-contato">
             Não perca tempo
             <span class="destaque-contato">transforme suas finanças.</span>
@@ -208,5 +211,8 @@
         <p>Copyright © 2024. Todos os direitos reservados.</p>
         <a href="">Design THRUST MARKETING</a>
     </div>
+
+    <script src="menu.js"></script>
+
 </body>
 </html>
