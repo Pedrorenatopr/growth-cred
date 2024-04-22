@@ -293,6 +293,89 @@
     padding: 1em;
   }
 
+  .box-carrossel {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 100px 100px;
+    gap: 200px;
+}
+
+.destaque-clientes {
+  color: #97EBA9;
+}
+
+.titulo-clientes {
+    font-size: 60px;
+    font-weight: 700;
+    width: 400px;
+    margin-top: 20px;
+    color: white;
+}
+ 
+.slider {
+	display: block;
+	height: 293px;
+	width: 600px;
+	margin: auto;
+	margin-top: 20px;
+	position: relative;
+}
+ 
+.slider li {
+	list-style: none;
+	position: absolute;
+}
+ 
+.slider img {
+	margin: auto;
+	height: 100%;
+	width: 100%;
+	vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+	background-color: transparent;
+	bottom: 0;
+	cursor: pointer;
+	display: block;
+	height: 60px;
+	position: absolute;
+	width: 60px;
+	z-index: 10;
+    border-radius: 10px;
+}
+
+.slider li:nth-child(1) label {
+	left: 270px;
+    background-image: url(seta-transparente.svg);
+    background-repeat: no-repeat;
+}
+
+.slider li:nth-child(2) label {
+	left: 320px;
+    background-image: url(seta-verde.svg);
+    background-repeat: no-repeat;
+}
+
+
+
+.slider img {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+	opacity: 1;
+	visibility: visible;
+	z-index: 10;
+}
+
 
 
   .aposentados {
@@ -550,6 +633,48 @@ footer p {
   .titulo-card-fgts {
     font-size: 30px;
   }
+
+  .box-carrossel {
+    display: grid;
+    align-self: center;
+    justify-content: center;
+    padding: 100px 100px;
+    gap: 10px;
+}
+
+.titulo-clientes {
+    font-size: 27px;
+    font-weight: 700;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li:nth-child(1) label {
+    left: 155px;
+    background-size: 25px;
+}
+
+.slider li:nth-child(2) label {
+    left: 188px;
+    background-size: 25px;
+}
+
+.slider label {
+    bottom: 0px;
+    top: 145px;
+    height: 25px;
+    width: 25px;
+}
+
 
 
   .box-aposentados {
