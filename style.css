@@ -769,7 +769,8 @@ nav button.menu.ativo span.dois {
     margin-top: 150px;
     padding: 0 0 0 1em;
     background-image: url(fundo-circular.png);
-    background-size: 950px;
+    background-size: 750px;
+    height: 100%;
   }
 
 
@@ -779,6 +780,11 @@ nav button.menu.ativo span.dois {
 
   .card-servicos p {
     line-height: 20px;
+    width: 200px;
+  }
+
+  .div-servicos6 P {
+    padding-top: 35px;
   }
 
   .card-servicos {
@@ -789,9 +795,8 @@ nav button.menu.ativo span.dois {
   }
 
   .card-servicos div{
-    width: auto;
-    height: 320px;
-    padding: 56px 34.472px 145.913px 26px;
+    width: 400px;
+    height: 280px;
   }
 
 
