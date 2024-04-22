@@ -172,6 +172,77 @@
     background-color: #97EBA9;
   }
 
+  .box-servicos {
+    padding: 1em;
+    background-color: #97EBA9;
+    background-image: url(fundo-circular.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .servicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: white;
+  }
+
+  .titulo-servicos {
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 50px;
+  }
+
+  .card-servicos p {
+    line-height: 29px;
+    padding-top: 10px;
+  }
+
+  .card-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1110px;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .card-servicos div{
+    width: 350px;
+    height: 260px;
+    border-radius: 5px;
+    padding: 35px 34.472px 145.913px 36px;
+  }
+
+  .div-servicos1 {
+    background-color: #1D2B3A;
+  }
+
+  .div-servicos2 {
+    background-color: #1D2B3A;
+  }
+
+  .div-servicos3 {
+    background-color: #1D2B3A;
+  }
+
+  .div-servicos4 {
+    background-color: #1D2B3A;
+  }
+
+  .div-servicos5 {
+    background-color: #1D2B3A;
+  }
+
+
+  .div-servicos6 {
+    background-color: #35BD78;
+  }
+
+
+
   
 
   .aposentados {
@@ -347,7 +418,7 @@ footer p {
   }
 
   .emprestimo-pessoal {
-    padding: 100px 0 100px 0;
+    padding: 100px 0 100px 1em;
     margin-top: 200px;
     background-image: url(Ellipse\ 6.png);
     background-repeat: no-repeat;
@@ -360,7 +431,7 @@ footer p {
 
   .div-titulo-pessoal {
     width: 100%;
-    padding-left: 1em;
+    padding-left: 0;
   }
 
 
@@ -373,6 +444,35 @@ footer p {
   
   .cartao-pessoal::-webkit-scrollbar {
     display: none;
+  }
+
+  .box-servicos {
+    margin-top: 150px;
+    padding: 0 0 0 1em;
+    background-image: url(fundo-circular.png);
+    background-size: 950px;
+  }
+
+
+  .titulo-servicos {
+    font-size: 37px;
+  }
+
+  .card-servicos p {
+    line-height: 20px;
+  }
+
+  .card-servicos {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .card-servicos div{
+    width: auto;
+    height: 320px;
+    padding: 56px 34.472px 145.913px 26px;
   }
 
 
