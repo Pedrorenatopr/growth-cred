@@ -244,6 +244,44 @@ nav button.menu.ativo span.dois {
     font-size: 16px;
     color: #fff;
   }
+
+  .box-sobre {
+    display: flex;
+    justify-content: center;
+    background-color: #212121;
+    padding: 200px 0px 200px 0px;
+  }
+  
+  .sobre-nos {
+    margin: 2em;
+  }
+
+  .card-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    border-radius: 19.762px;
+    border: 0.823px solid #ffffff35;
+    background-image: linear-gradient(to right, #1D2B3A, #11121B);
+    backdrop-filter: blur(15.562189102172852px);
+    width: 1090px;
+    height: 490px;
+  }
+
+  .texto-sobre {
+    width: 300px;
+    color: white;
+    line-height: 26px;
+  }
+
+  .titulo-sobre-nos {
+    font-size: 50px;
+    color: #97EBA9;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 50px;
+  }
   
 
   .box-aposentados {
@@ -1002,6 +1040,38 @@ nav button.menu.ativo span.dois {
     height: 25px;
     width: 25px;
 }
+
+.box-sobre {
+  padding: 100px 0px 100px 0px;
+}
+
+.sobre-nos {
+  margin: 2em;
+}
+
+.card-sobre {
+  display: grid;
+  gap: 10px;
+  width: auto;
+  height: auto;
+  padding: 2em;
+}
+
+.texto-sobre {
+  width: 300px;
+  text-align: center;
+}
+
+.card-sobre img {
+  width: 300px;
+}
+
+
+
+.titulo-sobre-nos {
+  font-size: 40px;
+}
+
 
 
 
