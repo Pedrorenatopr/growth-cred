@@ -439,11 +439,17 @@ nav button.menu.ativo span.dois {
 
   .box-carrossel {
     background-color: rgb(0, 0, 0);
-    display: flex;
+    display: grid;
     align-self: center;
     justify-content: center;
     padding: 100px 100px;
     gap: 200px;
+    text-align: center;
+}
+
+.div-titulo-clientes {
+  display: flex;
+  justify-content: center;
 }
 
 .destaque-clientes {
@@ -453,9 +459,10 @@ nav button.menu.ativo span.dois {
 .titulo-clientes {
     font-size: 60px;
     font-weight: 700;
-    width: 400px;
+    width: 700px;
     margin-top: 20px;
     color: white;
+    text-align: center;
 }
  
 .slider {
@@ -488,7 +495,7 @@ nav button.menu.ativo span.dois {
 	bottom: 0;
 	cursor: pointer;
 	display: block;
-	height: 60px;
+	height: 150px;
 	position: absolute;
 	width: 60px;
 	z-index: 10;
@@ -496,13 +503,13 @@ nav button.menu.ativo span.dois {
 }
 
 .slider li:nth-child(1) label {
-	left: 270px;
+	left: -70px;
     background-image: url(seta-transparente.svg);
     background-repeat: no-repeat;
 }
 
 .slider li:nth-child(2) label {
-	left: 320px;
+	left: 630px;
     background-image: url(seta-verde.svg);
     background-repeat: no-repeat;
 }
@@ -984,18 +991,18 @@ nav button.menu.ativo span.dois {
 }
 
 .slider li:nth-child(1) label {
-    left: 155px;
+    left: 20px;
     background-size: 25px;
 }
 
 .slider li:nth-child(2) label {
-    left: 188px;
+    left: 300px;
     background-size: 25px;
 }
 
 .slider label {
     bottom: 0px;
-    top: 145px;
+    top: 70px;
     height: 25px;
     width: 25px;
 }
