@@ -608,7 +608,7 @@ nav button.menu.ativo span.dois {
 .texto-contato {
   text-align: center;
   font-size: 51px;
-  width: 650px;
+  width: 750px;
   font-weight: 700;
 
 }
@@ -624,12 +624,19 @@ nav button.menu.ativo span.dois {
   margin-top: 50px;
 }
 
-.bt-contato {
-  color: white;
-  font-size: 20px;
-  background-color: #252630;
-  padding: 1em;
-  border-radius: 40px;
+
+.bt-wpp {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #33F682;
+  width: 300px;
+  border-radius: 45px;
+  padding: 10px;
+}
+
+.bt-wpp a {
+  color: black;
 }
 
 .redes {
