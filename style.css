@@ -248,7 +248,6 @@ nav button.menu.ativo span.dois {
   .box-sobre {
     display: flex;
     justify-content: center;
-    background-color: #212121;
     padding: 200px 0px 200px 0px;
   }
   
@@ -277,7 +276,7 @@ nav button.menu.ativo span.dois {
 
   .titulo-sobre-nos {
     font-size: 50px;
-    color: #97EBA9;
+    color: #11121B;
     font-weight: 700;
     text-align: center;
     padding-bottom: 50px;
@@ -573,6 +572,7 @@ nav button.menu.ativo span.dois {
     margin-right: 250px;
     border-radius: 22.247px;
     margin-top: 200px;
+    margin-bottom: 200px;
   }
 
   .texto-aposentados {
@@ -834,7 +834,7 @@ nav button.menu.ativo span.dois {
 
   .legenda-principal {
     font-size: 28px;
-    width: 100%;
+    width: 350px;
     padding-top: 20px;
   }
 
@@ -850,6 +850,16 @@ nav button.menu.ativo span.dois {
 
   .botoes-section-dois {
     justify-content: center;
+    padding-top: 10px;
+  }
+
+  .bt-dois  {
+    color: #252630;
+    font-size: 20px;
+    background-color: white;
+    padding: 1em;
+    border-radius: 40px;
+    width: 330px;
   }
 
 
@@ -1049,7 +1059,7 @@ nav button.menu.ativo span.dois {
 }
 
 .box-sobre {
-  padding: 100px 0px 100px 0px;
+  padding: 100px 0px 10px 0px;
 }
 
 .sobre-nos {
@@ -1092,6 +1102,7 @@ nav button.menu.ativo span.dois {
     margin-left: 0;
     margin-right: 0;
     margin-top: 100px;
+    margin-bottom: 0;
   }
 
   .div-img-aposentados {
@@ -1111,7 +1122,7 @@ nav button.menu.ativo span.dois {
   }
 
   .titulo-aposentados {
-    font-size: 28px;
+    font-size: 25px;
   }
 
   .legenda-aposentados {
