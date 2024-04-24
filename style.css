@@ -318,6 +318,10 @@ nav button.menu.ativo span.dois {
     gap: 2em;
   }
 
+  .card-pessoal a {
+    color: black;
+  }
+
   .card-pessoal div {
     width: 291.611px;
     height: 308.146px;
