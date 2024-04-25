@@ -208,24 +208,25 @@ nav button.menu.ativo span.dois {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
-    height: 90px;
+    width: 550px;
+    height: 70px;
     border-radius: 50px;
     background-color: #ffffff1e;
     position: relative;
   }
   section.apresentacao .quadro .seletor .toggle span {
-    width: 150px;
-    height: 70px;
+    width: 230px;
+    height: 50px;
     background-color: #252630;
     border-radius: 50px;
     position: absolute;
     left: 10px;
     z-index: 1;
     transition: all 0.3s;
+    margin-left: 10px;
   }
   section.apresentacao .quadro.ativo .seletor .toggle span {
-    left: 140px;
+    left: 290px;
   }
   section.apresentacao .quadro .seletor .toggle .nome {
     display: flex;
@@ -240,7 +241,6 @@ nav button.menu.ativo span.dois {
     margin: 0 10px 0 0;
   }
   section.apresentacao .quadro .seletor .toggle .nome p {
-    font-family: var(--fonte);
     font-size: 16px;
     color: #fff;
   }
@@ -913,7 +913,7 @@ nav button.menu.ativo span.dois {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 350px;
     height: 50px;
     border-radius: 50px;
     background-color: #ffffff1e;
@@ -922,14 +922,25 @@ nav button.menu.ativo span.dois {
   }
 
   section.apresentacao .quadro .seletor .toggle span {
-  width: 150px;
+  width: 160px;
   height: 35px;
   background-color: #252630;
   border-radius: 50px;
   position: absolute;
-  left: 10px;
+  left: -3px;
   z-index: 1;
   transition: all 0.3s;
+}
+
+section.apresentacao .quadro.ativo .seletor .toggle span {
+  left: 170px;
+  width: 160px;
+}
+
+section.apresentacao .quadro .seletor .toggle .nome p {
+  font-size: 10px;
+  color: #fff;
+  font-weight: bold;
 }
 
 
