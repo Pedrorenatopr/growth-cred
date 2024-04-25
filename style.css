@@ -453,7 +453,7 @@ nav button.menu.ativo span.dois {
   .card-fgts {
     background-color: #252630;
     width: 591px;
-    height: 300px;
+    height: 320px;
     border-radius: 19.801px;
     border: 0.825px solid var(--Heading, #252630);
     padding: 42px 47px;
@@ -469,7 +469,7 @@ nav button.menu.ativo span.dois {
     line-height: 29px;
     color: white;
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
   }
 
   .card-fgts a {
