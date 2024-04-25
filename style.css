@@ -189,7 +189,7 @@ nav button.menu.ativo span.dois {
     width: 1300px;
     min-height: 600px;
     border-radius: 10px;
-    background-color: #252630;
+    background-color: transparent;
     position: relative;
     overflow: hidden;
   }
