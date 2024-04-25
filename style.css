@@ -177,7 +177,7 @@ nav button.menu.ativo span.dois {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100dvh;
+    min-height: 800px;
     width: 100%;
     padding: 80px;
   }
@@ -252,7 +252,7 @@ nav button.menu.ativo span.dois {
   }
   
   .sobre-nos {
-    margin: 2em;
+    margin: 5px;
   }
 
   .card-sobre {
@@ -294,7 +294,7 @@ nav button.menu.ativo span.dois {
     align-items: center;
     background-color: black;
     padding: 200px 0 200px 0;
-    margin-top: 200px;
+    margin-top: 50px;
     background-image: url(Ellipse\ 6.png);
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -974,7 +974,7 @@ section.apresentacao .quadro .seletor .toggle .nome p {
   }
 
   .box-servicos {
-    margin-top: 150px;
+    margin-top: 120px;
     padding: 0 0 0 1em;
     background-image: url(fundo-circular.png);
     background-size: 750px;
@@ -1013,7 +1013,7 @@ section.apresentacao .quadro .seletor .toggle .nome p {
     gap: 20px;
     width: 100%;
     height: 601px;
-    margin: 100px 5px 100px 5px;
+    margin: 100px 5px 0px 5px;
   }
 
   .titulo-fgts {
@@ -1078,25 +1078,23 @@ section.apresentacao .quadro .seletor .toggle .nome p {
   padding: 100px 0px 10px 0px;
 }
 
-.sobre-nos {
-  margin: 2em;
-}
+
 
 .card-sobre {
   display: grid;
   gap: 10px;
-  width: auto;
+  width: 100%;
   height: auto;
   padding: 2em;
 }
 
 .texto-sobre {
-  width: 300px;
+  width: 100%;
   text-align: center;
 }
 
 .card-sobre img {
-  width: 300px;
+  width: 100%;
 }
 
 
@@ -1119,7 +1117,7 @@ section.apresentacao .quadro .seletor .toggle .nome p {
     margin-left: 0;
     margin-right: 0;
     margin-top: 100px;
-    margin-bottom: 0;
+    margin-bottom: 100px;
   }
 
   .div-img-aposentados {
@@ -1136,6 +1134,10 @@ section.apresentacao .quadro .seletor .toggle .nome p {
     margin-left: 0;
     text-align: center;
     padding: 1em;
+  }
+
+  .texto-oculto-mobile {
+    display: none;
   }
 
   .titulo-aposentados {
