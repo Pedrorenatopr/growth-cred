@@ -432,6 +432,13 @@ nav button.menu.ativo span.dois {
     background-color: #35BD78;
   }
 
+  .div-servicos6 p {
+    background-color: #35BD78;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+  }
+
+
   .box-fgts {
     display: flex;
     justify-content: center;
