@@ -138,12 +138,11 @@ nav button.menu.ativo span.dois {
     background-color: #97EBA9;
     margin-top: 50px;
     border-radius: 24px;
-    width: 100%;
-    margin-left: 250px;
-    margin-right: 250px;
+    width: 1300px;
     background-image: url(Ellipse\ 1.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+    padding-top: 50px;
   }
 
   .texto-principal {
@@ -837,6 +836,8 @@ nav button.menu.ativo span.dois {
     margin-left: 0;
     margin-right: 0;
     background-image: none;
+    padding-top: 0;
+
   }
 
   .texto-principal {
@@ -858,6 +859,7 @@ nav button.menu.ativo span.dois {
 
   .div-img-principal img {
     width: 300px;
+    height: auto;
   }
 
   .botoes-section-dois {
