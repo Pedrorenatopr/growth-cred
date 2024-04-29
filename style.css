@@ -364,7 +364,7 @@ nav button.menu.ativo span.dois {
   .box-servicos {
     padding: 1em;
     background-color: #97EBA9;
-    background-image: url(fundo-circular.png);
+    background-image: url(fundo-circular.svg);
     background-repeat: no-repeat;
     background-position: center;
   }
