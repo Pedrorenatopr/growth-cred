@@ -823,7 +823,7 @@ nav button.menu.ativo span.dois {
 
 
   .box-section-principal {
-    margin: 5px;
+    margin: 10px;
     padding-top: 30px;
   }
 
@@ -836,6 +836,7 @@ nav button.menu.ativo span.dois {
     margin-top: 50px;
     margin-left: 0;
     margin-right: 0;
+    background-image: none;
   }
 
   .texto-principal {
@@ -884,7 +885,7 @@ nav button.menu.ativo span.dois {
     justify-content: center;
     min-height: 0px;
     width: 100%;
-    padding: 5px;
+    padding: 10px;
   }
   /* Quadro */
   section.apresentacao .quadro {
@@ -1019,7 +1020,7 @@ section.apresentacao .quadro .seletor .toggle .nome p {
     gap: 20px;
     width: 100%;
     height: 601px;
-    margin: 100px 5px 0px 5px;
+    margin: 100px 10px 0px 10px;
   }
 
   .titulo-fgts {
@@ -1081,7 +1082,7 @@ section.apresentacao .quadro .seletor .toggle .nome p {
 }
 
 .box-sobre {
-  padding: 100px 0px 10px 0px;
+  padding: 100px 10px 10px 10px;
 }
 
 
@@ -1114,7 +1115,7 @@ section.apresentacao .quadro .seletor .toggle .nome p {
 
 
   .box-aposentados {
-    margin: 5px;
+    margin: 10px;
   }
 
   .aposentados {
