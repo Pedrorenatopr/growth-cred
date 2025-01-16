@@ -460,6 +460,34 @@ nav button.menu.ativo span.dois {
     background-color: #35BD78;
   }
 
+  .div-servicos7 {
+    background-color: #1D2B3A;
+  }
+
+  .card-procred-mobile {
+    display: none;
+  }
+
+  .card-procred-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .card-procred {
+    max-width: 1080px;
+    background-color: #1D2B3A;
+    border-radius: 5px;
+    color: white;
+    padding: 50px;
+  }
+
+  .card-procred p {
+    line-height: 29px;
+    padding-top: 10px;
+  }
+
   .div-servicos6 p {
     background-color: #35BD78;
     color: rgb(0, 0, 0);
@@ -734,6 +762,21 @@ footer p {
 
 .copy a {
   color: white;
+}
+
+@media screen and (max-device-width: 1080px) {
+
+  .card-procred-box {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .card-procred-mobile {
+    display: flex;
+  }
+
 }
 
 @media screen and (max-device-width: 1000px){
